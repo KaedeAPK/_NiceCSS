@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>flat bottun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    h1 {
+        margin: 20px 20px 10px;
+        font-size: 135%;
+    }
+    button {
+        margin: 0 20px 40px;
+        padding: 1em 2em;
+        border: none;
+        /* 横並び */
+        display: inline-block;
+        background-color: #5A7AB3;
+        /* 下に影を6px */
+        box-shadow: 0 6px #4063A4;
+        /*  */
+        font-size: 114%;
+        line-height: 1;
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+    }
+    .btnB {
+        border-radius: 2px;
+        box-shadow: 0 6px #4063A4;
+        }
+    .btnB:hover {
+        box-shadow: 0 0px #4063A4;
+        top: 6px;
+    }
+    .btnC {
+        border-radius: 3px;
+        box-shadow: 0 1px #4063A4;
+        top: 0;
+        /* transition: .2s all; */
+    }
+    .btnC:hover {
+        top: -3px;
+        box-shadow: 5px 5px #4063A4;
+    }
+    .btnC:active {
+        box-shadow: 0 1px #4063A4;
+        top: 0;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>セミフラットボタンの基本</h1>
+    <button class="btnA">BUTTON A</button>
+    <button class="btnB">BUTTON B</button>
+    <button class="btnC">BUTTON C</button>
+</body>
+</html>
