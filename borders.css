@@ -1,0 +1,32 @@
+p {
+    font-size: 500%;
+}
+p#p01 {
+    border: 2px solid;
+    color: aqua;
+}
+p#p02{
+    border: 2px solid;
+    color: red;
+    padding: 5px 40px;
+}
+p#p03{
+    border-left: 2rem solid;
+    color: blue;
+    padding: 5px 40px;
+    background: #0ff;
+}
+p#p04{
+    padding: 5px 40px;
+}
+p#p05 {
+    padding: 5px 40px;
+    border: 2rem;
+    border-style: ridge;
+}
+p#p06 {
+    padding: 5px 40px;
+    border: 2rem;
+    border-style: inset;
+    /* outset is oppisite */
+}
