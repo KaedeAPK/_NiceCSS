@@ -78,3 +78,13 @@
         text-align: center;
         color: red;
     } 
+## Box
+    <!-- padding 含めてwidthに押さえる -->
+    width: 300px;
+    padding: 25px;
+    box-sizing:border-box;
+
+    <!-- 50px未満には縮まらず、スクロールバーが出る -->
+    max-height:50px;
+
+    
