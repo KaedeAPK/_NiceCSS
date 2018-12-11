@@ -13,6 +13,16 @@
 ## Value
     inherit: 子要素への強制継承. 通常は継承しないborderなどに.
 
+## background
+    // 単なる背景色指定
+    background: #777;
+    // 背景画像を適用。
+    background-image: url('m3.png');
+    // （繰り返す）拡大縮小を指定.
+    background-size:150px;
+    // Maximize
+    width: 100%; height: 100%
+
 ## body
     max-width: 800px;
     margin: N% auto;
