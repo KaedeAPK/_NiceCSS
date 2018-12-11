@@ -96,5 +96,31 @@
 
     <!-- 50px未満には縮まらず、スクロールバーが出る -->
     max-height:50px;
+## Grid Layout
+    全体を描こう。.wrapperで変換できる
+     .wrapper {
+            display: grid;
+            <!-- 1/4,2/4,1/4で縦に分割 -->
+            grid-template-columns: 1fr 2fr 1fr;
+            <!-- 最低縦幅100px, 自動で最小縦幅にする -->
+            grid-auto-rows: minmax(100px, auto);
+            <!-- gridとgridの間を1文字分に -->
+            grid-gap: 1em;
+
+            justify-items: stretch;
+            align-items: stretch;
+        }
+    <!-- 縦が1本目のラインから始める -->
+    grid-column: 1;
+    /横 4本めから2本めまでか？ */
+    grid-row: 2/4;
+## ul自動シマシマ
+    .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd) {
+            background: #ddd;
+    }
 
     
